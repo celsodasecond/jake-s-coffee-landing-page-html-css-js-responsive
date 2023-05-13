@@ -1,0 +1,19 @@
+{
+	"songs": [
+		{
+			"artist": "Rick Astley",
+			"title": "Never Gonna Give You Up",
+			"source": "assets/music/Rick Astley - Never Gonna Give You Up.mp3"
+		},
+		{
+			"artist": "Rick Astley",
+			"title": "When I Fall In Love",
+			"source": "assets/music/Rick Astley - When I Fall In Love.mp3"
+		},
+		{
+			"artist": "Rick Astley",
+			"title": "Together Forever",
+			"source": "assets/music/Rick Astley - Together Forever.mp3"
+		}
+	]
+}

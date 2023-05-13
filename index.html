@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jake's Coffee Shop: Experience Aroma</title>
+		<link rel="icon" type="image/x-icon" href="/assets/graphics/coffee.png" />
+
+		<!-- Poppins Font -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet" />
+
+		<!-- Box Icons -->
+		<link
+			href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+			rel="stylesheet" />
+
+		<!-- Social Media Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+		<!-- External Own Stylesheet -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<!-- MOBILE NAV -->
+		<div class="mb-nav">
+			<div class="mb-move-item"></div>
+			<div class="mb-nav-item active">
+				<a href="#home">
+					<i class="bx bxs-home"></i>
+				</a>
+			</div>
+			<div class="mb-nav-item">
+				<a href="#food-menu-section">
+					<i class="bx bxs-food-menu"></i>
+				</a>
+			</div>
+			<div class="mb-nav-item">
+				<a href="#music">
+					<i class="bx bxs-wink-smile"></i>
+				</a>
+			</div>
+			<div class="mb-nav-item">
+				<a href="#jobs">
+					<i class="bx bxs-comment-detail"></i>
+				</a>
+			</div>
+		</div>
+		<!-- END MOBILE NAV -->
+
+		<!-- BACK TO TOP BTN -->
+		<a href="#home" class="back-to-top">
+			<i class="bx bxs-to-top"></i>
+		</a>
+		<!-- END BACK TO TOP BTN -->
+
+		<!-- TOP NAVIGATION -->
+		<div class="nav">
+			<div class="menu-wrap">
+				<a href="#home">
+					<div class="logo">Jake's Coffee Shop <sup>TM</sup></div>
+				</a>
+				<div class="menu h-xs">
+					<a href="#home">
+						<div class="menu-item">Home</div>
+					</a>
+					<a href="#food-menu-section">
+						<div class="menu-item">Menu</div>
+					</a>
+					<a href="#music">
+						<div class="menu-item">Music</div>
+					</a>
+					<a href="#jobs">
+						<div class="menu-item">Jobs</div>
+					</a>
+				</div>
+				<div class="right-menu">
+					<div class="contact-btn">
+						<a href="#footer">
+							<i class="bx bx-phone"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END TOP NAVIGATION -->
+
+		<!-- SECTION HOME -->
+		<section
+			id="home"
+			class="fullheight align-items-center bg-img bg-img-fixed"
+			style="background-image: url(assets/graphics/home.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-xs-12">
+						<div class="slogan">
+							<h1 class="left-to-right play-on-scroll">Jake's Coffee</h1>
+							<p class="left-to-right play-on-scroll delay-2">
+								Awaken your senses at Jake's Coffee Shop, where extraordinary
+								brews and warm smiles blend into a perfect harmony. Indulge in
+								the magic of our aromatic haven, where each cup holds a story
+								waiting to be savored.
+							</p>
+							<div class="left-to-right play-on-scroll delay-4">
+								<button
+									onclick="confirmRedirect('https://goo.gl/maps/HKLVFG9ZwyUQ1vxGA')">
+									FIND US HERE
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SECTION HOME -->
+
+		<!-- FOOD MENU SECTION -->
+		<section
+			class="align-items-center bg-img bg-img-fixed"
+			id="food-menu-section"
+			style="background-image: url(assets/graphics/menu.jpg)">
+			<div class="container">
+				<div class="food-menu">
+					<h1>
+						Awaken your
+						<span class="blink-animation">coffee cravings</span> today
+					</h1>
+					<p>
+						From heavenly <span class="primary-color">pastries</span> to rich,
+						aromatic brews, our menu is a symphony of flavors that will delight
+						your senses. Discover the perfect harmony of
+						<span class="primary-color">coffee</span> and culinary bliss.
+					</p>
+					<div class="food-category">
+						<div class="zoom play-on-scroll">
+							<button class="active" data-food-type="all">All food</button>
+						</div>
+						<div class="zoom play-on-scroll delay-2">
+							<button data-food-type="hot-coffee">Hot Coffee</button>
+						</div>
+						<div class="zoom play-on-scroll delay-4">
+							<button data-food-type="iced-coffee">Iced Coffee</button>
+						</div>
+						<div class="zoom play-on-scroll delay-6">
+							<button data-food-type="donuts">Donuts</button>
+						</div>
+						<div class="zoom play-on-scroll delay-8">
+							<button data-food-type="sandwiches">Sandwiches</button>
+						</div>
+					</div>
+
+					<div id="foodItemWrap" class="food-item-wrap all">
+						<div class="food-item hot-coffee-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url(assets/graphics/americano.jpg);
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Cafe Americano</h3>
+										<span> ₱ 110 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item iced-coffee-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/graphics/iced-coffee.jpg');
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>JC's Iced Coffee</h3>
+										<span> ₱ 100 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item donuts-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/graphics/original-glazed.jpg');
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Original Glazed</h3>
+										<span> ₱ 49 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item iced-coffee-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/graphics/iced-french-vanilla.jpg');
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Iced French Vanilla</h3>
+										<span> ₱ 150 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item sandwiches-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/graphics/tuna-melt.jpg');
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Tuna Melt</h3>
+										<span> ₱ 99 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item hot-coffee-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/graphics/french-vanilla.jpg');
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>French Vanilla</h3>
+										<span> ₱ 150 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item iced-coffee-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/graphics/iced-spanish-latte.jpeg');
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Iced Spanish Latte</h3>
+										<span> ₱ 210 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="food-item sandwiches-type">
+							<div class="item-wrap bottom-up play-on-scroll">
+								<div class="item-img">
+									<div
+										class="img-holder bg-img"
+										style="
+											background-image: url('assets/graphics/grilled-cheese.jpg');
+										"></div>
+								</div>
+								<div class="item-info">
+									<div>
+										<h3>Grilled Cheese</h3>
+										<span> ₱ 159 </span>
+									</div>
+									<div class="star-btn">
+										<i class="bx bx-star"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END FOOD MENU SECTION -->
+
+		<!-- SECTION MUSIC -->
+		<section class="music fullheight align-items-center" id="music">
+			<div class="container">
+				<div class="row">
+					<div class="col-7 h-xs">
+						<img
+							src="assets/graphics/music.jpg"
+							alt=""
+							class="fullwidth left-to-right play-on-scroll" />
+					</div>
+					<div class="col-5 col-xs-12 align-items-center">
+						<div class="music-slogan right-to-left play-on-scroll">
+							<h3>
+								<span class="primary-color">Feel</span> the
+								<span class="primary-color">vibes</span> through our cafe
+								<span class="primary-color">music</span>
+							</h3>
+							<div class="music-player">
+								<div class="player-controls">
+									<button class="prev-btn">
+										<i class="bx bx-rewind-circle"></i>
+									</button>
+									<button class="play-btn">
+										<i class="bx bx-play-circle"></i>
+									</button>
+									<button class="next-btn">
+										<i class="bx bx-fast-forward-circle"></i>
+									</button>
+									<button class="show-songs-btn">
+										<i class="bx bx-list-ul"></i>
+									</button>
+								</div>
+								<div class="progress-bar">
+									<div class="progress"></div>
+								</div>
+								<div class="song-details">
+									<div class="artist"></div>
+									<div class="song-title"></div>
+								</div>
+							</div>
+							<div class="song-list">
+								<ul></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SECTION MUSIC -->
+
+		<!-- JOBS SECTION -->
+		<section id="jobs">
+			<div class="container">
+				<div class="row">
+					<div class="jobs-list-header">
+						<h1>
+							Ready to embark on an extraordinary journey?
+							<span class="primary-color">Join our caffeinated crew!</span>
+						</h1>
+						<p>
+							Step into a world where heavenly pastries dance with aromatic
+							brews, and every sip is a symphony of flavors. At Jack's Coffee,
+							we blend passion, artistry, and caffeine-fueled wizardry to create
+							unforgettable experiences. Become a maestro of the coffee craft,
+							where each cup tells a tale and every plate holds culinary bliss.
+							Join us and ignite your senses with the perfect harmony of coffee
+							and creativity.
+						</p>
+					</div>
+					<ul class="job-list" id="jobList">
+						<!-- Content in JS -->
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- END JOBS SECTION -->
+
+		<!-- FOOTER SECTION -->
+		<section
+			id="footer"
+			class="footer bg-img"
+			style="background-image: url(assets/graphics/footer-cafe.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-xs-12">
+						<div class="contact">
+							<h1>Jake's Coffee Shop</h1>
+							<br />
+							<p>
+								For inquiries, feedback, or reservations, please feel free to
+								reach out to us using the following contact information:
+							</p>
+							<br />
+							<p>
+								Email:
+								<a href="mailto:jakescoffee@gmail.com">jakescoffee@gmail.com</a>
+							</p>
+							<p>Phone: +1 515-494-0889</p>
+							<p>Website: <a href="#">jakescoffee.ph</a></p>
+							<p>Check out our socials:</p>
+							<div class="social-links">
+								<a href="https://www.facebook.com/JakesCoffee"
+									><i class="fab fa-facebook-f"></i
+								></a>
+								<a href="https://www.instagram.com/jakes_coffee/"
+									><i class="fab fa-instagram"></i
+								></a>
+								<a href="https://twitter.com/JakesCoffeeCo"
+									><i class="fab fa-twitter"></i
+								></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 col-xs-12">
+						<div class="about-us">
+							<h1>About us</h1>
+							<br />
+							<p>
+								<a href="#home"> Home </a>
+							</p>
+							<p>
+								<a href="#food-menu-section"> Menu </a>
+							</p>
+							<p>
+								<a href="#music"> Music </a>
+							</p>
+							<p>
+								<a href="#jobs"> Jobs </a>
+							</p>
+						</div>
+					</div>
+					<div class="col-4 col-xs-12">
+						<h1>Subscribe & media</h1>
+						<br />
+						<div class="subscribe">
+							<p>
+								Embark on a captivating journey where each click unravels a
+								sensory odyssey, revealing the hidden wonders of Jake's Coffee.
+								Join our email list and unlock a world of exclusive updates,
+								promotions, and insider perks, ensuring you never miss a sip of
+								our extraordinary brews.
+							</p>
+							<div class="input-group">
+								<input
+									id="email-input"
+									type="email"
+									placeholder="Enter your email" />
+								<button id="subscribe-button">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END FOOTER SECTION -->
+
+		<!-- Modals and Banners -->
+
+		<div id="modal" class="modal">
+			<span class="close-button">&times;</span>
+			<p>You are now subscribed!</p>
+		</div>
+
+		<div id="apply-modal" class="modal">
+			<span class="close-button">&times;</span>
+			<p>
+				Email your resume to us:
+				<span class="primary-color">hr@jakescoffee.com</span>
+			</p>
+		</div>
+
+		<div id="invalid-email-banner">
+			<span class="close-button">&times;</span>
+			<p>The email entered is invalid. Please enter a valid email.</p>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+{
+	"jobs": [
+		{
+			"jobTitle": "Barista Extraordinaire",
+			"jobDetails": "Craft and serve exquisite coffee creations while dazzling customers with latte art and expert knowledge of specialty beans."
+		},
+		{
+			"jobTitle": "Coffee Connoisseur Ambassador",
+			"jobDetails": "Share your passion for coffee by curating unique tasting experiences and guiding customers on a journey through Jake's finest brews."
+		},
+		{
+			"jobTitle": "Espresso Innovator",
+			"jobDetails": "Push the boundaries of espresso-based beverages with your inventive flair, creating signature drinks that leave customers craving for more."
+		},
+		{
+			"jobTitle": "Brewmaster Craftsman",
+			"jobDetails": "Master the art of brewing coffee, meticulously calibrating each element to achieve the perfect cup, ensuring every sip is a sensory delight."
+		},
+		{
+			"jobTitle": "Chief Caffeine Officer",
+			"jobDetails": "Lead the charge in exploring new coffee trends, experimenting with innovative brewing methods, and keeping Jake's at the forefront of the coffee scene."
+		},
+		{
+			"jobTitle": "Bean Whisperer",
+			"jobDetails": "Source and select the highest quality coffee beans from around the world, collaborating with farmers and fostering sustainable relationships to bring Jake's customers the finest coffee experience."
+		}
+	]
+}
