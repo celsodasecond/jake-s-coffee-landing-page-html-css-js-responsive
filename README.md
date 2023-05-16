@@ -9,10 +9,13 @@
 ## Screenshots:
 
 ### Desktop:
-![image](https://github.com/celsodasecond/jake-s-coffee-landing-page-html-css-js-responsive/assets/75917932/f88902a2-3247-4475-b401-03da95fb1a1e)
+![image](https://github.com/celsodasecond/jake-s-coffee-landing-page-html-css-js-responsive/assets/75917932/d81fe8ae-c6c3-44c0-a64b-b3a097c4359d)
 
 ### Mobile:
-![image](https://github.com/celsodasecond/jake-s-coffee-landing-page-html-css-js-responsive/assets/75917932/22583bb0-7082-472a-8add-6940ccfab5db)
+![image](https://github.com/celsodasecond/jake-s-coffee-landing-page-html-css-js-responsive/assets/75917932/c368e055-e907-4968-881e-4fe082f447c2)
+
+#### Note:
+Some sections cannot be seen as the will appear upon scrolling to the specific section. Clone the Project to experience.
 
 #### Clone Project
 
